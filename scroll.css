@@ -1,0 +1,187 @@
+@media (min-height: 651px) and (min-width:1351px) {
+    body,
+    html {
+        margin: 0;
+        overflow: hidden;
+        -webkit-transition: opacity 400ms;
+        -moz-transition: opacity 400ms;
+        transition: opacity 400ms;
+    }
+
+    body,
+    .onepage-wrapper,
+    html {
+        display: block;
+        position: static;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .onepage-wrapper {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: relative;
+        padding: 0;
+        -webkit-transform-style: preserve-3d;
+    }
+
+    .onepage-wrapper .section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .onepage-pagination {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        z-index: 5;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .onepage-pagination li {
+        padding: 0;
+        text-align: center;
+    }
+
+    .onepage-pagination li a {
+        padding: 10px;
+        width: 4px;
+        height: 4px;
+        display: block;
+
+    }
+
+    .onepage-pagination li a:before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+
+    .onepage-pagination li a.active:before {
+        width: 10px;
+        height: 10px;
+        background: none;
+        border: 1px solid #fff;
+        margin-top: -4px;
+        left: 8px;
+    }
+
+    .disabled-onepage-scroll,
+    .disabled-onepage-scroll .wrapper {
+        overflow: auto;
+    }
+
+    .disabled-onepage-scroll .onepage-wrapper .section {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+    }
+
+    .disabled-onepage-scroll .onepage-wrapper {
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        transform: none !important;
+        -ms-transform: none !important;
+        min-height: 100%;
+    }
+
+
+    .disabled-onepage-scroll .onepage-pagination {
+        display: none;
+    }
+
+    body.disabled-onepage-scroll,
+    .disabled-onepage-scroll .onepage-wrapper,
+    html {
+        position: inherit;
+    }
+    .sect1 {
+        margin-top: -80px;
+        padding-top: 80px;
+    }
+
+    .onepage-wrapper .section {
+        margin-top: -50px;
+        padding-bottom: 0 !important;
+    }
+    .contacts .pic {
+        top: -25px !important;
+        right: -320px !important;
+    }
+
+    .contacts .pic img {
+        width: 65% !important;
+    }
+    .contacts .container {
+        -webkit-transform: translateY(-250px);
+        -ms-transform: translateY(-250px);
+        -o-transform: translateY(-250px);
+        transform: translateY(-250px);
+    }
+    .foot-line .container {
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+
+    }
+    .foot-line {
+        padding-top: 75px !important;
+    }
+    .undercontacts {
+        margin-top: 45px !important;
+    }
+    .whycosts {
+        margin-top: -35px !important;
+    }
+    section .container {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .howitworks {
+        margin-bottom: -50px;
+    }
+    section:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #0f2243 !important;
+    }
+    .traff .container {
+        -webkit-transform: translateY(-120px);
+        -ms-transform: translateY(-120px);
+        -o-transform: translateY(-120px);
+        transform: translateY(-120px);
+
+    }
+    .success.sect1 .foot-line {
+        bottom: 100px
+    }
+    .howitworks .container {
+        max-width: 1300px;
+    }
+}

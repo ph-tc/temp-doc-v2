@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="style.css" />
+<!--    <link rel="stylesheet" href="scroll.css" />-->
+    <title>Doc</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <svg width="348" height="365" viewBox="0 0 348 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flettersvg">
+	<path d="M118.607 365H225.483C257.977 365 289.139 352.09 312.116 329.11C335.092 306.13 348 274.963 348 242.464C348 209.966 335.092 178.798 312.116 155.819C289.139 132.839 257.977 119.929 225.483 119.929H118.607" fill="#58B8E8"/>
+<path d="M127 344H222.511C251.55 344 279.398 334.729 299.932 318.225C320.465 301.722 332 279.339 332 256C332 232.661 320.465 210.278 299.932 193.775C279.398 177.271 251.55 168 222.511 168H127" fill="url(#paint0_linear)"/>
+</g>
+<g id="slettersvg">
+<path opacity="0.8" d="M229.393 0H122.517C90.0234 0 58.8607 12.91 35.8844 35.8899C12.908 58.8698 0 90.0372 0 122.536C0 155.034 12.908 186.202 35.8844 209.182C58.8607 232.161 90.0234 245.071 122.517 245.071H229.393" fill="#1574FF"/>
+<path opacity="0.8" d="M229 21H138.614C111.134 21 84.7791 30.2714 65.3477 46.7746C45.9164 63.2778 35 85.6609 35 109C35 132.339 45.9164 154.722 65.3477 171.225C84.7791 187.729 111.134 197 138.614 197H229" fill="url(#paint1_linear)"/>	
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="355.606" y1="247" x2="168.506" y2="260.182" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#58B8E8"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="12.6606" y1="118" x2="189.813" y2="106.188" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#1574FF"/>
+</linearGradient>
+</defs>
+</svg>
+
+    </div>
+    <div class="content">
+        <nav class="mobile">
+            <div class="container">
+                <ul>
+
+                    <li onclick="scrolltowhy()">Почему мы?</li>
+                    <li onclick="scrolltohow()">Как это работает?</li>
+                    <li onclick="scrolltopartners()">Партнёры</li>
+                    <li onclick="scrolltotraff()">Трафик</li>
+                    <li onclick="scrolltocontacts()">Контакты</li>
+                    <!--                <li onclick="scrolltoaboutus()">О нас пишут</li>-->
+                </ul>
+            </div>
+        </nav>
+        <header data-animate="data-animate">
+            <div class="container">
+                <div class="logo" data-animate="1">
+                    <a href="#">
+                    <img src="img/logo.png" alt="">
+                    <span>SERIOUS.PARTNERS</span>
+                </a>
+                </div>
+                <!--
+<div class="language">
+    <ul>
+        <li><a href="#">ru</a></li>
+        <li><a href="#">eng</a></li>
+    </ul>
+</div>
+-->
+                <nav>
+                    <ul data-animate="1">
+                        <li onclick="scrolltowhy()">Почему мы?</li>
+                        <li onclick="scrolltohow()">Как это работает?</li>
+                        <li onclick="scrolltopartners()">Партнёры</li>
+                        <li onclick="scrolltotraff()">Трафик</li>
+                        <li onclick="scrolltocontacts()">Контакты</li>
+
+                        <!--                    <li dot="7">О нас пишут</li>-->
+                    </ul>
+                </nav>
+                <a href="#" class="menubtn" onclick="showmenu()" data-animate="2">
+                    <div class="hamburger-box">
+                        <span></span>
+                    </div>
+                </a>
+                <div class="head-buttons" data-animate="3">
+                    <button class="btn enter-btn" onclick="showenter()">Войти</button>
+                    <button class="btn reg-btn" onclick="showreg()">Регистрация</button>
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </header>
+        <article>
+            <main id="fullpage">
+                <section class="sect1">
+                    <div class="container">
+                        <div class="wrap" data-animate="data-animate">
+                            <h2><span data-animate="2">Монетизируй трафик</span> с помощью мобильных подписок</h2>
+                            <!--                        <p>в компании серъёзных партнёров</p>-->
+                            <div class="row" data-animate="3">
+                                <button class="sect-btn yellow-btn" onclick="showreg()">Зарегистрироваться</button>
+<!--                                <span>или</span>-->
+<!--                                <a href="#" onclick="showenter()">войти</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="whycosts">
+                    <div class="container clear" data-animate>
+                        <div class="pic" data-animate="1">
+                            <img src="img/spic.png" alt="">
+                        </div>
+                        <div class="wrap" data-animate="2">
+                            <h2>Почему стоит работать с Serious.Partners</h2>
+                            <ul class="clear">
+                                <li><img src="img/dollar.png" alt=""><span>Моментальные выплаты</span></li>
+                                <li><img src="img/high.png" alt=""><span>Высокие отчисления</span></li>
+                                <li><img src="img/meneger.png" alt=""><span>Персональный менеджер</span></li>
+                                <li><img src="img/statistics.png" alt=""><span>Удобная<br>статистика</span></li>
+                                <li><img src="img/flat.png" alt=""><span>Прямые контракты с операторами</span></li>
+                                <li><img src="img/individual.png" alt=""><span>Индивидуальный подход к партнёрам</span></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="howitworks">
+                    <div class="container clear" data-animate>
+                        <div class="title">
+                            <h2>Как это работает?</h2>
+                            <!--
+<span>5 простых шагов для получения 
+профита с мобильного трафика</span>
+-->
+                        </div>
+                        <div class="wrap clear slider">
+                            <div class="box50 clear">
+                                <div class="pic">
+                                    <img src="img/icon-1-1.png" alt="">
+                                </div>
+                                <div class="decr-wrap">
+                                    <div class="number">
+                                        <div>1<span>1</span></div>
+                                    </div>
+                                    <div class="txt">Вы получаете ссылку на оффер в партнерской программе
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box50 clear">
+                                <div class="pic">
+                                    <img src="img/WSP-icon-1-2.png" alt="">
+                                </div>
+                                <div class="decr-wrap">
+                                    <div class="number">
+                                        <div>2<span>2</span></div>
+                                    </div>
+                                    <div class="txt">Настраиваете рекламную компанию и запускаете трафик</div>
+                                </div>
+                            </div>
+                            <div class="box50 clear">
+                                <div class="pic">
+                                    <img src="img/WSP-icon-1-3.png" alt="">
+                                </div>
+                                <div class="decr-wrap">
+                                    <div class="number">
+                                        <div>3<span>3</span></div>
+                                    </div>
+                                    <div class="txt">Пользователи попадают на тематический лендинг
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box50 clear">
+                                <div class="pic">
+                                    <img src="img/WSP-icon-1-4.png" alt="">
+                                </div>
+                                <div class="decr-wrap">
+                                    <div class="number">
+                                        <div>4<span>4</span></div>
+                                    </div>
+                                    <div class="txt">Активация подписки происходит по нажатию одной кнопки</div>
+                                </div>
+                            </div>
+                            <div class="box50 clear">
+                                <div class="pic">
+                                    <img src="img/WSP-icon-1-5.png" alt="">
+                                </div>
+                                <div class="decr-wrap">
+                                    <div class="number">
+                                        <div>5<span>5</span></div>
+                                    </div>
+                                    <div class="txt">Вы получаете прибыль с подписки пользователя
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p>Зарегистрируйтесь в партнерской программе</p>
+                        <div class="btn-area">
+
+                            <button class="sect-btn yellow-btn" onclick="showreg()">Зарегистрироваться</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="partners clear">
+                    <div class="container clear" data-animate>
+                        <div class="title">
+                            <h2>Наши<br>партнёры</h2>
+                        </div>
+                        <div class="wrap clear">
+                            <div class="top">
+                                <span>Прямые контракты с операторами сотовой связи России и стран СНГ позволяют нам предоставлять лучшие условия на рынке для наших партнеров.</span>
+                            </div>
+                            <div class="operators clear">
+                                <a href="#">
+                                <img src="img/beelin.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/mts.jpg" alt=""></a>
+                                <a href="#">
+                                <img src="img/megafon.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/tele2.svg" alt="" style="width: 75%;
+    height: auto;"></a>
+                                <a href="#">
+                                <img src="img/altel.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/kievstar.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/bak.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/azer.png" alt=""></a>
+                                <a href="#">
+                                <img src="img/vel.jpg" alt=""></a>
+                                <a href="#">
+                                <img src="img/lifecell.svg" alt=""></a>
+                                <a href="#">
+                                <img src="img/narcell.svg" alt=""></a>
+                                <a href="#">
+                                <img src="img/wifi.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="traff clear">
+                    <div class="container clear" data-animate>
+                        <div class="pic">
+                            <img src="img/traff.png" alt="">
+                        </div>
+                        <div class="wrap">
+                            <h2>Источники трафика</h2>
+                            <ul>
+                                <li>
+                                    <span>Вконтакте</span>
+                                </li>
+                                <li>
+                                    <span>Яндекс</span>
+                                </li>
+                                <li>
+                                    <span>Facebook</span>
+                                </li>
+                                <li>
+                                    <span>Google</span>
+                                </li>
+                                <li>
+                                    <span>Мобильный трафик</span>
+                                </li>
+                                <li>
+                                    <span>MyTarget</span>
+                                </li>
+                                <li>
+                                    <span>Тизерные сети</span>
+                                </li>
+                                <li>
+                                    <span>SEO</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="sources">
+                    <div class="container clear" data-animate="data-animate">
+                        <div class="wrap">
+                            <div class="sources-med">Более</div>
+                            <div class="sources-big">1000</div>
+                            <div class="sources-med">уникальных<br>лэндингов</div>
+                            <div class="sources-small">С высокой конверсией<br>под любые тематики<br>и источники трафика</div>
+                            <button class="sect-btn yellow-btn" onclick="showreg()">Зарегистрироваться</button>
+                        </div>
+                        <div class="pic">
+                            <img src="img/lands.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <!--
+<section class="writes">
+    <div class="container">
+        <h2>О нас пишут</h2>
+        <div class="wrap clear">
+            <div class="column">
+                <div class="date">14.04.2019</div>
+                <div class="bold">Мы работаем со всей четверкой осс небольшой текст написать.</div>
+                <div class="txt">Предоставляется доступ ко всем существующим на сегодня технологиям монетизации мобильного трафика (pinsubmit, 1clickflow, click2sms). Система имеет двуязычный интерфейс и мультивалютный счет (RUB и USD).</div>
+            </div>
+            <div class="column">
+                <div class="date">14.04.2019</div>
+                <div class="bold">Мы работаем со всей четверкой осс небольшой текст написать.</div>
+                <div class="txt">Предоставляется доступ ко всем существующим на сегодня технологиям монетизации мобильного трафика (pinsubmit, 1clickflow, click2sms).</div>
+            </div>
+            <div class="column">
+                <div class="date">14.04.2019</div>
+                <div class="bold">GoldenGoose придерживается в работе трех правил</div>
+                <div class="txt">Предоставляется доступ ко всем существующим на сегодня технологиям монетизации мобильного трафика (pinsubmit, 1clickflow, click2sms). </div>
+            </div>
+        </div>
+        <a href="#" class="transparent-btn">Все статьи</a>
+    </div>
+</section>
+-->
+                <section class="contacts">
+                    <div class="container">
+                        <div class="wrap">
+                            <h2>Контактная<br>информация</h2>
+                            <div class="contact-row">
+                                <img src="img/tg.png" alt="">
+                                <span>Telegram:</span>
+                                <a href="http://t.me/seriouspartners">SeriousPartners</a>
+                            </div>
+                            <div class="contact-row">
+                                <img src="img/skype.png" alt="">
+                                <span>Skype:</span>
+                                <a href="skype:SeriousPartners_skype?chat">SeriousPartners_skype</a>
+                            </div>
+                            <div class="contact-row">
+                                <img src="img/mail.svg" alt="">
+                                <span>E-mail:</span>
+                                <a href="mailto:admin@seriouspartner.com">admin@seriouspartner.com</a>
+                            </div>
+                            <div class="undercontacts">
+                                <a href="#" class="transparent-btn">Создать тикет</a>
+                                <span>Работаем: пн.-пт, 11:00-19:00 по МСК. 
+В выходные дни, рассматриваются только 
+тикеты, имеющие статус - критических.</span>
+                            </div>
+                        </div>
+                        <div class="pic">
+                            <img src="img/contacts.png" alt=""></div>
+                        <div class="foot-line clear">
+                            <div class="container clear">
+                                <div class="left">
+                                    <a href="#">
+                    <img src="img/logo.png" alt="">
+                    
+                    </a>
+                                    <span>&copy;2010-2019 SeriousPartner.biz ltd Все права защищены</span>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="fb">
+                                        <?xml version="1.0" ?>
+                                        <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64  H288z" /></svg>
+                                    </a>
+                                    <a href="#" class="twitter">
+                                        <?xml version="1.0" ?>
+                                        <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M52.837,15.065c-1.811,0.805-3.76,1.348-5.805,1.591c2.088-1.25,3.689-3.23,4.444-5.592c-1.953,1.159-4.115,2-6.418,2.454  c-1.843-1.964-4.47-3.192-7.377-3.192c-5.581,0-10.106,4.525-10.106,10.107c0,0.791,0.089,1.562,0.262,2.303  c-8.4-0.422-15.848-4.445-20.833-10.56c-0.87,1.492-1.368,3.228-1.368,5.082c0,3.506,1.784,6.6,4.496,8.412  c-1.656-0.053-3.215-0.508-4.578-1.265c-0.001,0.042-0.001,0.085-0.001,0.128c0,4.896,3.484,8.98,8.108,9.91  c-0.848,0.23-1.741,0.354-2.663,0.354c-0.652,0-1.285-0.063-1.902-0.182c1.287,4.015,5.019,6.938,9.441,7.019  c-3.459,2.711-7.816,4.327-12.552,4.327c-0.815,0-1.62-0.048-2.411-0.142c4.474,2.869,9.786,4.541,15.493,4.541  c18.591,0,28.756-15.4,28.756-28.756c0-0.438-0.009-0.875-0.028-1.309C49.769,18.873,51.483,17.092,52.837,15.065z" /></svg></a>
+                                    <a href="#" class="instagram">
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.7 56.7" enable-background="new 0 0 56.7 56.7" xml:space="preserve">
+<g>
+	<path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+		c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z" />
+	<circle cx="41.5" cy="16.4" r="2.9"/>
+	<path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+		h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+		s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+		c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z" />
+</g>
+</svg>
+                                    </a>
+                                    <a href="#" class="vk">
+                                        <?xml version="1.0" ?>
+                                        <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 30 30" height="30px" id="Vkontakte" version="1.1" viewBox="0 0 30 30" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M16,24c1,0,1-1.441,1-2c0-1,1-2,2-2s2.715,1.715,4,3c1,1,1,1,2,1s3,0,3,0  s2-0.076,2-2c0-0.625-0.685-1.685-3-4c-2-2-3.026-0.967,0-5c1.843-2.456,3.184-4.681,2.954-5.323C29.734,7.064,24.608,6.088,24,7  c-2,3-2.367,3.735-3,5c-1,2-1.099,3-2,3c-0.909,0-1-1.941-1-3c0-3.306,0.479-5.644-1-6c0,0-2,0-3,0c-1.61,0-3,1-3,1  s-1.241,0.968-1,1c0.298,0.04,2-0.414,2,1c0,1,0,2,0,2s0.009,4-1,4c-1,0-3-4-5-7C5.215,6.823,5,7,4,7C2.928,7,2.001,7.042,1,7.042  C0,7.042-0.128,7.679,0,8c2,5,3.437,8.14,7.237,12.096C10.722,23.725,13.05,23.918,15,24C15.5,24.021,15,24,16,24z" fill-rule="evenodd" id="VK"/></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </article>
+
+    </div>
+
+
+
+    <div class="modal" id="regmodal">
+        <div class="screen">
+            <div class="modal-content modal-reg">
+                <div class="head">
+                    <span>Регистрация</span>
+                    <div class="close"></div>
+                </div>
+                <div class="wrap">
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" placeholder="Имя" icon="name">
+                        </div>
+                        <div class="input-box">
+                            <input type="mail" placeholder="E-mail" icon="mail">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Пароль" icon="password">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Повторите пароль" icon="password">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="WMR" icon="webmoney">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Телефон/Skype/Telegram" icon="phone">
+                        </div>
+                        <!--<div class="input-box ">-->
+                        <div class="checkbox-wrap">
+                            <input type="checkbox">
+                            <span>Я принимаю <a href="#">Условия использования</a> и <a href="#">Политику конфиденциальности</a></span>
+                        </div>
+
+                        <!--                        </div>-->
+                        <button class="sect-btn">Зарегистрироваться</button>
+                    </form>
+                    <p>У меня уже есть аккаунт, я хочу <a href="#" onclick="showenter()">авторизоваться</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="entermodal">
+        <div class="screen">
+            <div class="modal-content modal-reg">
+                <div class="head">
+                    <span>Авторизация</span>
+                    <div class="close"></div>
+                </div>
+                <div class="wrap">
+                    <form action="">
+                        <div class="input-box">
+                            <input type="mail" placeholder="E-mail" icon="mail">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="Пароль" icon="password">
+                        </div>
+                        <div class="checkbox-wrap">
+                            <input type="checkbox">
+                            <span>Запомнить меня</span>
+                        </div>
+                        <a href="#" class="forgotpass">Забыли пароль?</a>
+                        <div class="buttons-area">
+                            <button class="sect-btn">Войти</button>
+                            <span>или</span>
+                            <button class="sect-btn btn2" onclick="showreg()">Зарегистрироваться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+<!--    <script src="js/scroll.js"></script>-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
