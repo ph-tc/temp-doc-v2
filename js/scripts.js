@@ -246,11 +246,14 @@ $(document).ready(function(){
     });
 
     slickSlider.mousewheel(function(e) {
+        var slider = document.querySelector('.slider');
+        var sliderCenter = window.pageYOffset + slider.getBoundingClientRect().top - 150;
         if (e.deltaY < 0) {
             if($(this).slick('slickCurrentSlide') == $(this).find('.box50').length - 1) {
                 return
             }
 
+            window.scrollTo(0, sliderCenter);
             e.preventDefault()
             $(this).slick('slickNext')
         } else {
@@ -258,6 +261,7 @@ $(document).ready(function(){
                 return
             }
 
+            window.scrollTo(0, sliderCenter);
             e.preventDefault()
             $(this).slick('slickPrev')
         }

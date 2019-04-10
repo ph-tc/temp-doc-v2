@@ -207,7 +207,7 @@ section .container {
     background: url(img/sect1r.png)no-repeat;
     background-size: 670px;
     min-height: 570px;
-    background-position: 92% center;
+    background-position: 92% 70%;
 }
 
 h2 {
@@ -1623,7 +1623,7 @@ header nav {
         margin-right: 10px;
     }
     header {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
