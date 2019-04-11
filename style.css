@@ -611,6 +611,9 @@ mix-blend-mode: overlay;
 }
 
 .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(23, 70, 154, 0) 2%, rgba(23, 70, 154, 0.02) 10%, rgba(23, 70, 154, 0.16) 20%, rgba(23, 70, 154, 0.25) 24%, rgba(23, 70, 154, 0.43) 29%, rgba(23, 70, 154, 0.54) 33%, rgba(23, 70, 154, 0.55) 34%, rgba(23, 70, 154, 0.6) 36%, rgba(23, 70, 154, 0.61) 37%, rgba(23, 70, 154, 0.66) 39%, rgba(23, 70, 154, 0.65) 40%, rgba(23, 70, 154, 0.68) 41%, rgba(23, 70, 154, 0.72) 44%, rgba(23, 70, 154, 0.7) 51%, rgba(23, 70, 154, 0.64) 55%, rgba(23, 70, 154, 0.61) 56%, rgba(23, 70, 154, 0.59) 57%, rgba(23, 70, 154, 0.56) 59%, rgba(23, 70, 154, 0.55) 60%, rgba(23, 70, 154, 0.53) 64%, rgba(23, 70, 154, 0.39) 71%, rgba(23, 70, 154, 0.33) 73%, rgba(23, 70, 154, 0.26) 78%, rgba(23, 70, 154, 0.09) 86%, rgba(23, 70, 154, 0.06) 88%, rgba(23, 70, 154, 0.02) 93%, rgba(23, 70, 154, 0) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(23, 70, 154, 0) 2%, rgba(23, 70, 154, 0.02) 10%, rgba(23, 70, 154, 0.16) 20%, rgba(23, 70, 154, 0.25) 24%, rgba(23, 70, 154, 0.43) 29%, rgba(23, 70, 154, 0.54) 33%, rgba(23, 70, 154, 0.55) 34%, rgba(23, 70, 154, 0.6) 36%, rgba(23, 70, 154, 0.61) 37%, rgba(23, 70, 154, 0.66) 39%, rgba(23, 70, 154, 0.65) 40%, rgba(23, 70, 154, 0.68) 41%, rgba(23, 70, 154, 0.72) 44%, rgba(23, 70, 154, 0.7) 51%, rgba(23, 70, 154, 0.64) 55%, rgba(23, 70, 154, 0.61) 56%, rgba(23, 70, 154, 0.59) 57%, rgba(23, 70, 154, 0.56) 59%, rgba(23, 70, 154, 0.55) 60%, rgba(23, 70, 154, 0.53) 64%, rgba(23, 70, 154, 0.39) 71%, rgba(23, 70, 154, 0.33) 73%, rgba(23, 70, 154, 0.26) 78%, rgba(23, 70, 154, 0.09) 86%, rgba(23, 70, 154, 0.06) 88%, rgba(23, 70, 154, 0.02) 93%, rgba(23, 70, 154, 0) 100%);
@@ -619,6 +622,10 @@ mix-blend-mode: overlay;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0017469a', GradientType=0);
     position: relative;
+}
+
+.partners .container {
+    width: 100%;
 }
 
 .partners:after {
@@ -654,6 +661,12 @@ mix-blend-mode: overlay;
     line-height: 110px;
 }
 
+partners .opearators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .partners .wrap .operators a {
     height: 60px;
     width: 60px;
@@ -664,13 +677,19 @@ mix-blend-mode: overlay;
     box-shadow: 0 0 25px rgba(64, 191, 255, 0.9);
     display: block;
     float: left;
-    margin: 30px 55px 30px 0;
+    margin: 20px 0;
+    margin-right: 38px;
     padding: 0;
     border: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative
+}
+
+.partners .wrap .operators a:nth-child(6),
+.partners .wrap .operators a:nth-child(12) {
+    margin-right: 0;
 }
 
 .partners .wrap .operators a img {
@@ -773,6 +792,7 @@ mix-blend-mode: overlay;
 
 .sources .container {
     width: 100%;
+    padding-left: 0;
 }
 
 .sources .pic {
@@ -884,8 +904,18 @@ mix-blend-mode: overlay;
     right: -170px;
 }
 
+@keyframes scalerotate {
+    from {
+        transform: rotate(-3deg) scale(1);
+    }
+    to {
+        transform: rotate(3deg) scale(1.05);
+    }
+}
+
 .contacts .pic img {
     width: 75%;
+    animation: scalerotate 3s alternate infinite ease-in-out;
 }
 
 .contacts .contact-row a {
@@ -933,6 +963,7 @@ mix-blend-mode: overlay;
 
 .foot-line {
     padding: 100px 0 50px;
+    padding-bottom: 0;
     line-height: 60px;
 }
 
@@ -1967,13 +1998,20 @@ header nav.mobile {
     }
     .partners .wrap {
         float: none;
-        margin: auto
+        margin: auto;
+        justify-content: center;
+    }
+
+    .partners .wrap .operators a:nth-child(6),
+    .partners .wrap .operators a:nth-child(12) {
+        margin-right: auto;
     }
     .partners .wrap .operators a {
         margin: 0 10px 35px;
+        margin-right: 26px;
     }
     .partners .wrap .operators {
-        width: 320px;
+        width: 100%;
         margin: 25px auto 0;
     }
     .traff .pic {
@@ -2009,6 +2047,7 @@ header nav.mobile {
         left: 0;
     }
     .sources .wrap {
+        width: 100%;
         text-align: center;
     }
     .sources {
@@ -2237,6 +2276,7 @@ header nav.mobile {
     }
     .container {
         padding: 0 10px;
+        padding-left: 0;
     }
     .language {
         display: none;
@@ -2367,6 +2407,16 @@ header nav.mobile {
     .partners h2 {
         width: auto;
     }
+    .partners .container {
+        width: 90%;
+    }
+    .partners .wrap {
+        width: 100%;
+    }
+    .partners .wrap .operators a:nth-child(6),
+    .partners .wrap .operators a:nth-child(12) {
+        margin-right: 10px;
+    }
     .slider {
         width: 80%;
         margin: 0 auto;
@@ -2485,8 +2535,15 @@ header nav.mobile {
         line-height: 20px;
     }
     .whycosts h2 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 46px;
+    }
+    .writes .container {
+        padding-left: 0;
+    }
+
+    .contacts .container {
+        padding-left: 0;
     }
 }
 
