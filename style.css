@@ -55,7 +55,7 @@ header img {
 }
 
 .logo a {
-    color: #4b74b9;
+    color: #ccc;
     letter-spacing: -1px;
     font-weight: 500;
 }
@@ -138,6 +138,20 @@ nav.mobile ul li:hover:after {
     color: #666;
 }
 
+#fullpage {
+    position: relative;
+}
+
+#fullpage .bg-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
 nav {
     float: left;
     -webkit-transition: transform 0.4s ease;
@@ -147,7 +161,7 @@ nav {
 
 nav li {
     font-weight: 500;
-    color: #1574ff;
+    color: #ccc;
     padding: 0 10px;
 }
 
@@ -197,11 +211,14 @@ nav li {
     background: linear-gradient(to bottom, rgba(23, 64, 125, 1) 0%, rgba(23, 64, 125, 0.93) 12%, rgba(23, 64, 125, 0.8) 26%, rgba(24, 64, 126, 0.59) 42%, rgba(24, 64, 126, 0.56) 44%, rgba(25, 67, 131, 0.23) 67%, rgba(25, 67, 132, 0.2) 70%, rgba(26, 71, 139, 0.11) 77%, rgba(27, 73, 144, 0.09) 79%, rgba(27, 75, 147, 0.08) 80%, rgba(27, 73, 144, 0.07) 81%, rgba(28, 77, 151, 0.06) 82%, rgba(29, 78, 154, 0.05) 83%, rgba(30, 82, 162, 0.04) 84%, rgba(31, 86, 169, 0.03) 85%, rgba(33, 90, 177, 0.03) 86%, rgba(37, 102, 201, 0.02) 87%, rgba(37, 102, 201, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17407d', endColorstr='#002566c9', GradientType=0);
-
 }
 
 section {
     min-height: 100vh;
+}
+
+section.contacts {
+    min-height: auto;
 }
 
 section .container {
@@ -259,7 +276,7 @@ margin: 0;
 h2 span {
 font-weight: 800;
 letter-spacing: -1.75px;
-color: #ffd400;
+color: #fef60e;
 text-transform: uppercase;
 }
 
@@ -298,10 +315,10 @@ transition: all 0.4s ease;
 }
 
 .yellow-btn {
-background: #ffd400;
-color: #b25800;
+background: #fef60e;
+color: #071325;
 position: relative;
-box-shadow: 0 0 50px rgba(255, 150, 0, 1);
+box-shadow: none;
 mix-blend-mode: normal
 }
 
@@ -558,7 +575,7 @@ mix-blend-mode: overlay;
 
 .howitworks .btn-area {
     height: 320px;
-    background: url(img/btn-area.png)no-repeat center;
+    /*background: url(img/btn-area.png)no-repeat center;*/
     background-size: 65%;
     position: relative;
     text-align: center;
@@ -571,13 +588,16 @@ mix-blend-mode: overlay;
 }
 
 .howitworks .btn-area button {
-    box-shadow: rgb(255, 150, 0) 0px 0px 50px;
+    box-shadow: none;
     vertical-align: middle;
     margin: auto;
     margin-top: 123px;
     position: relative;
 }
 
+.howitworks .btn-area button:hover {
+    box-shadow: rgb(255, 150, 0) 0px 0px 50px;
+}
 .howitworks .title {
     float: none;
     width: auto;
@@ -760,6 +780,16 @@ mix-blend-mode: overlay;
     top: -20px;
     left: 0;
     /*    z-index: -1*/
+}
+
+.writes {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.writes .container {
+    width: 100%;
 }
 
 .writes .column {
@@ -1371,9 +1401,9 @@ header {
 }
 
 .head-buttons .reg-btn {
-    background-color: #ffd400;
-    border-color: #ffd400;
-    color: #b25800;
+    background-color: #fef60e;
+    border-color: #fef60e;
+    color: #071325;
 }
 
 .head-buttons .reg-btn:hover {
@@ -1522,7 +1552,7 @@ header nav.mobile {
 }
 
 .success.sect1 .wrap h2 {
-    color: #ffd400;
+    color: #fef60e;
     font-size: 55px;
     max-width: none;
     line-height: 58px;
@@ -1641,14 +1671,14 @@ header nav.mobile {
         color: #0F2243
     }
 
-    .sect-btn:hover {
-        color: #3076f4;
-        background: #fff
-    }
+    /*.sect-btn:hover {*/
+    /*    color: #3076f4;*/
+    /*    background: #fff*/
+    /*}*/
 
     .yellow-btn:hover {
-        box-shadow: none;
-        background: #fff;
+        box-shadow: 0 0 50px rgba(255, 150, 0, 1);
+        /*background: #fff;*/
     }
 
     .sect1 .wrap .row a:hover {
@@ -2233,7 +2263,7 @@ header nav.mobile {
         background-color: #fff;
     }
     .logo a {
-        color: #fff;
+        color: #ccc;
     }
     nav.mobile {
         background: #0f2243;
@@ -2290,7 +2320,7 @@ header nav.mobile {
         transform: translateY(-50%);
     }
     nav li {
-        color: #fff;
+        color: #ccc;
     }
     header {
         z-index: 11;
