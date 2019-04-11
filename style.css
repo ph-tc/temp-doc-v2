@@ -200,97 +200,118 @@ section .container {
     margin: auto;
     position: relative;
 }
-
+.sect1 {
+    position: relative;
+}
 .sect1 .container {
     max-width: 1325px;
     margin: auto;
-    background: url(img/sect1r.png)no-repeat;
+    background: url(img/sect1r.png) no-repeat;
     background-size: 670px;
     min-height: 570px;
     background-position: 92% 70%;
 }
 
+@media (max-height: 750px) {
+    .sect1 .container {
+        background-size: 570px;
+    }
+}
+
+@media (max-height: 640px) {
+    .sect1 .container {
+        background-size: 500px;
+    }
+}
+
 h2 {
-    font-size: 50px;
-    margin: 0;
-    line-height: 55px;
-    font-weight: 600;
+font-size: 50px;
+margin: 0;
+line-height: 55px;
+font-weight: 600;
+}
+.sect1 h2 {
+font-size: 32px;
+line-height: 32px;
+}
+.sect1 h2 span {
+font-size: 45px;
 }
 
 p {
-    margin: 0;
+margin: 0;
 }
 
 h2 span {
-    font-weight: 800;
-    letter-spacing: -1.75px;
-    color: #ffd400;
-    text-transform: uppercase;
+font-weight: 800;
+letter-spacing: -1.75px;
+color: #ffd400;
+text-transform: uppercase;
 }
 
 .sect1 h2 {
-    max-width: 43%;
-    margin-bottom: 40px;
+max-width: 43%;
+margin-bottom: 40px;
 }
 
 .sect1 p {
-    margin: 40px 0px 50px;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
+margin: 40px 0px 50px;
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
 }
 
 .sect1 .wrap {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-left: 40px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 40px;
 }
 
 .sect-btn {
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    padding: 25px 50px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
-    background: #3076f4;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+display: inline-block;
+padding: 25px 50px;
+border-radius: 150px;
+border: none;
+cursor: pointer;
+background: #3076f4;
+-webkit-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
 }
 
 .yellow-btn {
-    background: #ffd400;
-    color: #b25800;
-    position: relative;
-    box-shadow: 0 0 50px rgba(255, 150, 0, 1);
-    mix-blend-mode: normal
+background: #ffd400;
+color: #b25800;
+position: relative;
+box-shadow: 0 0 50px rgba(255, 150, 0, 1);
+mix-blend-mode: normal
 }
 
 .sect1 .wrap .row a {
-    color: #59e3ff;
-    -webkit-transition: transform 0.4s ease;
-    -o-transition: transform 0.4s ease;
-    transition: transform 0.4s ease;
-    display: inline-block;
+color: #59e3ff;
+-webkit-transition: transform 0.4s ease;
+-o-transition: transform 0.4s ease;
+transition: transform 0.4s ease;
+display: inline-block;
 }
 
 /*
 .yellow-btn:before {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    margin: auto;
-    z-index: 0;
-    background: url(img/sect-yellow-btn.png)no-repeat center;
-    background-size: cover;
-    mix-blend-mode: overlay;
+content: '';
+position: absolute;
+top: -20px;
+left: -20px;
+right: -20px;
+bottom: -20px;
+margin: auto;
+z-index: 0;
+background: url(img/sect-yellow-btn.png)no-repeat center;
+background-size: cover;
+mix-blend-mode: overlay;
 }
 */
 
@@ -405,6 +426,10 @@ h2 span {
     line-height: 23px;
 }
 
+.howitworks .wrap {
+    position: relative;
+}
+
 .howitworks .wrap .box50 {
     /*width: 50%;*/
     /*float: left;*/
@@ -506,12 +531,12 @@ h2 span {
 }*/
 
 .howitworks .btn-area {
-    /*height: 320px;*/
+    height: 320px;
     background: url(img/btn-area.png)no-repeat center;
     background-size: 65%;
     position: relative;
     text-align: center;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     /*line-height: 320px;*/
     -webkit-transform: translateY(-85px);
     -ms-transform: translateY(-85px);
@@ -523,6 +548,7 @@ h2 span {
     box-shadow: rgb(255, 150, 0) 0px 0px 50px;
     vertical-align: middle;
     margin: auto;
+    margin-top: 123px;
     position: relative;
 }
 
@@ -1681,6 +1707,10 @@ header nav {
     }
     .sect1 h2 {
         max-width: 50%;
+        font-size: 30px;
+    }
+    .sect1 h2 span {
+        font-size: 42px;
     }
 
 }
@@ -1690,6 +1720,12 @@ header nav {
     .sect1 .container,
     nav.mobile .container {
         max-width: 900px;
+    }
+    .sect1 h2 {
+        font-size: 25px;
+    }
+    .sect1 h2 span {
+        font-size: 36px;
     }
     section .container {
         max-width: 800px
@@ -2200,6 +2236,9 @@ header nav {
         line-height: 28px;
         font-weight: 900;
         letter-spacing: -0.5px;
+    }
+    .sect1 h2 span {
+        font-weight: 800;
     }
     .whycosts .pic {
         margin-top: -75px;
