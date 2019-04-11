@@ -263,3 +263,17 @@ $(document).ready(function(){
         }
     });
 });
+
+setInterval( function() {
+    var sect1Btn = document.querySelector('.sect1 .sect-btn');
+    var heading = document.querySelector('.sect1 h2');
+    if ( window.matchMedia("(min-width: 920px)").matches ) {
+
+        var headingWidth = parseInt(getComputedStyle(heading).width);
+        var btnWidth = parseInt(getComputedStyle(sect1Btn).width);
+
+        sect1Btn.style.marginLeft = ( headingWidth - btnWidth ) / 2 + 'px';
+    } else {
+        sect1Btn.style.marginLeft = '0';
+    }
+} , 100)

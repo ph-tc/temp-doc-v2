@@ -214,11 +214,11 @@ nav li {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 section.contacts {
-    min-height: auto;
+    min-height: 100vh;
 }
 
 section .container {
@@ -253,14 +253,14 @@ section .container {
 }
 
 h2 {
-font-size: 50px;
+font-size: 45px;
 margin: 0;
 line-height: 55px;
 font-weight: 600;
 }
 .sect1 h2 {
     font-size: 32px;
-    line-height: 32px;
+    line-height: 35px;
     font-weight: 500;
 }
 .sect1 h2 span {
@@ -409,7 +409,6 @@ mix-blend-mode: overlay;
     position: absolute;
     top: 0;
     left: -70px;
-
 }
 
 .whycosts .wrap ul li span {
@@ -450,6 +449,7 @@ mix-blend-mode: overlay;
 
 .howitworks .container {
     width: 100%;
+    margin-top: 100px;
 }
 
 .slider {
@@ -486,9 +486,9 @@ mix-blend-mode: overlay;
 
 .howitworks .wrap .box50 .txt {
     /*display: inline-block;*/
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
 }
 
@@ -510,7 +510,7 @@ mix-blend-mode: overlay;
 
 .howitworks .wrap .box50 .number {
     /*display: inline-block;*/
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .howitworks .wrap .box50 img {
@@ -628,6 +628,28 @@ mix-blend-mode: overlay;
     width: 100%;
 }
 
+/*.partners .container::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 2px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    display: block;*/
+/*    height: 2px;*/
+/*    background-color: #f00;*/
+/*}*/
+
+/*.partners .container::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 70px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    display: block;*/
+/*    height: 2px;*/
+/*    background-color: #f00;*/
+/*}*/
+
 .partners:after {
     position: absolute;
     content: '';
@@ -641,7 +663,7 @@ mix-blend-mode: overlay;
 }
 
 .partners .title {
-    width: 445px;
+    /*width: 445px;*/
     float: left;
 }
 
@@ -655,10 +677,13 @@ mix-blend-mode: overlay;
     display: inline-block;
     vertical-align: bottom;
     line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .partners .wrap .top {
-    line-height: 110px;
+    line-height: 55px;
+    margin-bottom: 20px;
 }
 
 partners .opearators {
@@ -705,8 +730,8 @@ partners .opearators {
 }
 
 .partners h2 {
-    width: 350px;
     float: right;
+    line-height: 50px;
 }
 
 .traff .pic {
@@ -752,6 +777,10 @@ partners .opearators {
     height: 25px;
 }
 
+.traff ul li span {
+    font-weight: 500;
+}
+
 .traff {
     display: flex;
     flex-direction: column;
@@ -779,6 +808,7 @@ partners .opearators {
 
 .sources-small {
     font-size: 20px;
+    font-weight: 500;
     line-height: 24px;
     margin: 45px 0;
 }
@@ -806,6 +836,7 @@ partners .opearators {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    height: 80vh;
 }
 
 .writes .container {
@@ -876,13 +907,16 @@ partners .opearators {
 }
 
 .writes {
-    margin-bottom: 90px;
+    /*margin-bottom: 90px;*/
 }
 
 .contacts {
+    position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: stretch;
+    min-height: 100vh;
     background: -moz-linear-gradient(top, rgba(37, 102, 201, 0) 0%, rgba(35, 95, 188, 0.02) 13%, rgba(31, 86, 169, 0.03) 14%, rgba(30, 82, 162, 0.04) 15%, rgba(29, 80, 157, 0.05) 16%, rgba(29, 78, 154, 0.06) 17%, rgba(28, 77, 151, 0.07) 18%, rgba(27, 75, 147, 0.08) 19%, rgba(27, 73, 143, 0.09) 20%, rgba(27, 73, 144, 0.09) 21%, rgba(26, 72, 141, 0.11) 23%, rgba(25, 67, 132, 0.19) 30%, rgba(25, 67, 131, 0.23) 33%, rgba(24, 64, 126, 0.56) 56%, rgba(24, 64, 126, 0.59) 58%, rgba(24, 64, 126, 0.8) 74%, rgba(23, 64, 125, 0.93) 88%, rgba(23, 64, 125, 1) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(37, 102, 201, 0) 0%, rgba(35, 95, 188, 0.02) 13%, rgba(31, 86, 169, 0.03) 14%, rgba(30, 82, 162, 0.04) 15%, rgba(29, 80, 157, 0.05) 16%, rgba(29, 78, 154, 0.06) 17%, rgba(28, 77, 151, 0.07) 18%, rgba(27, 75, 147, 0.08) 19%, rgba(27, 73, 143, 0.09) 20%, rgba(27, 73, 144, 0.09) 21%, rgba(26, 72, 141, 0.11) 23%, rgba(25, 67, 132, 0.19) 30%, rgba(25, 67, 131, 0.23) 33%, rgba(24, 64, 126, 0.56) 56%, rgba(24, 64, 126, 0.59) 58%, rgba(24, 64, 126, 0.8) 74%, rgba(23, 64, 125, 0.93) 88%, rgba(23, 64, 125, 1) 100%);
@@ -900,7 +934,7 @@ partners .opearators {
 .contacts .pic {
     position: absolute;
     z-index: 0;
-    top: -75px;
+    top: -100px;
     right: -170px;
 }
 
@@ -962,7 +996,10 @@ partners .opearators {
 }
 
 .foot-line {
-    padding: 100px 0 50px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 150px 0 50px;
     padding-bottom: 0;
     line-height: 60px;
 }
@@ -1990,7 +2027,8 @@ header nav.mobile {
     }
     .partners h2 {
         float: none;
-        margin: auto
+        margin: auto;
+        line-height: 42px;
     }
     .partners .wrap .top span,
     .partners .wrap .top {
@@ -2111,7 +2149,6 @@ header nav.mobile {
     }
     .foot-line {
         padding-top: 35px;
-        padding-bottom: 15px;
     }
     .foot-line .left a img {
         vertical-align: middle;
@@ -2267,6 +2304,9 @@ header nav.mobile {
         width: auto;
         text-align: center;
         margin-bottom: 25px;
+    }
+    .contacts .container {
+        width: 90%;
     }
 }
 
@@ -2544,6 +2584,9 @@ header nav.mobile {
 
     .contacts .container {
         padding-left: 0;
+    }
+    .foot-line{
+        position: relative;
     }
 }
 
