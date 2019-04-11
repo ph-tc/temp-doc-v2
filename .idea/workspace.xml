@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb54e479-f30b-4900-a16d-5eef2021ecc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="220" column="7" lean-forward="true" selection-start-line="220" selection-start-column="7" selection-end-line="220" selection-end-column="7" />
+            <state relative-caret-position="389">
+              <caret line="593" column="17" lean-forward="true" selection-start-line="593" selection-start-column="17" selection-end-line="593" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -48,11 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.partners</find>
-      <find>.modal-content .wrap</find>
-      <find>.head-buttons .reg-btn</find>
-      <find>nav.mobile</find>
-      <find>1340</find>
       <find>header</find>
       <find>nav.mobile .container</find>
       <find>whycosts</find>
@@ -76,8 +70,13 @@
       <find>linear</find>
       <find>.howitworks .btn-area button</find>
       <find>.howitworks .btn-area</find>
-      <find>main</find>
       <find>section</find>
+      <find>.partners .wrap .operators a</find>
+      <find>sources .conta</find>
+      <find>sources .wrap</find>
+      <find>.foot-line</find>
+      <find>main</find>
+      <find>.contacts .pic img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554904122805</updated>
       <workItem from="1554904124088" duration="6215000" />
-      <workItem from="1554964791052" duration="17000000" />
+      <workItem from="1554964791052" duration="19341000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1554910337553</created>
@@ -184,11 +183,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554980232353</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial">
+      <created>1554983577944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554983577944</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial">
+      <created>1554985728618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554985728618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23215000" />
+    <option name="totallyTimeSpent" value="25556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -252,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="220" column="7" lean-forward="true" selection-start-line="220" selection-start-column="7" selection-end-line="220" selection-end-column="7" />
+        <state relative-caret-position="389">
+          <caret line="593" column="17" lean-forward="true" selection-start-line="593" selection-start-column="17" selection-end-line="593" selection-end-column="17" />
         </state>
       </provider>
     </entry>
