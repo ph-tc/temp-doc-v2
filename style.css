@@ -13,7 +13,7 @@ body {
 }
 
 .sect1 .container {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 button,
@@ -34,7 +34,7 @@ a {
 header {
     height: 55px;
     line-height: 55px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     font-size: 15px;
     position: fixed;
@@ -79,6 +79,11 @@ header .container {
     -o-flex-direction: row;
     flex-direction: row;
     justify-content: space-between;
+}
+
+header .container--top {
+    position: relative;
+    z-index: 40;
 }
 
 header ul {
@@ -195,6 +200,10 @@ nav li {
 
 }
 
+section {
+    min-height: 100vh;
+}
+
 section .container {
     max-width: 1000px;
     margin: auto;
@@ -202,13 +211,15 @@ section .container {
 }
 .sect1 {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .sect1 .container {
     max-width: 1325px;
     margin: auto;
     background: url(img/sect1r.png) no-repeat;
     background-size: 670px;
-    min-height: 570px;
     background-position: 92% 70%;
 }
 
@@ -319,6 +330,7 @@ mix-blend-mode: overlay;
 */
 
 .sect1 .container {
+    width: 100%;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -338,6 +350,8 @@ mix-blend-mode: overlay;
 }
 
 .whycosts {
+    display: flex;
+    flex-direction: column;
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(23, 70, 154, 0) 2%, rgba(23, 70, 154, 0.02) 10%, rgba(23, 70, 154, 0.16) 20%, rgba(23, 70, 154, 0.25) 24%, rgba(23, 70, 154, 0.43) 29%, rgba(23, 70, 154, 0.54) 33%, rgba(23, 70, 154, 0.55) 34%, rgba(23, 70, 154, 0.6) 36%, rgba(23, 70, 154, 0.61) 37%, rgba(23, 70, 154, 0.66) 39%, rgba(23, 70, 154, 0.65) 40%, rgba(23, 70, 154, 0.68) 41%, rgba(23, 70, 154, 0.72) 44%, rgba(23, 70, 154, 0.7) 51%, rgba(23, 70, 154, 0.64) 55%, rgba(23, 70, 154, 0.61) 56%, rgba(23, 70, 154, 0.59) 57%, rgba(23, 70, 154, 0.56) 59%, rgba(23, 70, 154, 0.55) 60%, rgba(23, 70, 154, 0.53) 64%, rgba(23, 70, 154, 0.39) 71%, rgba(23, 70, 154, 0.33) 73%, rgba(23, 70, 154, 0.26) 78%, rgba(23, 70, 154, 0.09) 86%, rgba(23, 70, 154, 0.06) 88%, rgba(23, 70, 154, 0.02) 93%, rgba(23, 70, 154, 0) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(23, 70, 154, 0) 2%, rgba(23, 70, 154, 0.02) 10%, rgba(23, 70, 154, 0.16) 20%, rgba(23, 70, 154, 0.25) 24%, rgba(23, 70, 154, 0.43) 29%, rgba(23, 70, 154, 0.54) 33%, rgba(23, 70, 154, 0.55) 34%, rgba(23, 70, 154, 0.6) 36%, rgba(23, 70, 154, 0.61) 37%, rgba(23, 70, 154, 0.66) 39%, rgba(23, 70, 154, 0.65) 40%, rgba(23, 70, 154, 0.68) 41%, rgba(23, 70, 154, 0.72) 44%, rgba(23, 70, 154, 0.7) 51%, rgba(23, 70, 154, 0.64) 55%, rgba(23, 70, 154, 0.61) 56%, rgba(23, 70, 154, 0.59) 57%, rgba(23, 70, 154, 0.56) 59%, rgba(23, 70, 154, 0.55) 60%, rgba(23, 70, 154, 0.53) 64%, rgba(23, 70, 154, 0.39) 71%, rgba(23, 70, 154, 0.33) 73%, rgba(23, 70, 154, 0.26) 78%, rgba(23, 70, 154, 0.09) 86%, rgba(23, 70, 154, 0.06) 88%, rgba(23, 70, 154, 0.02) 93%, rgba(23, 70, 154, 0) 100%);
@@ -346,8 +360,11 @@ mix-blend-mode: overlay;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0017469a', GradientType=0);
     /*    margin-top: -15px;*/
-    padding-bottom: 90px;
     margin-bottom: 20px;
+}
+
+.whycosts .container {
+    width: 100%;
 }
 
 .whycosts .wrap ul {
@@ -409,7 +426,13 @@ mix-blend-mode: overlay;
 }
 
 .howitworks {
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.howitworks .container {
+    width: 100%;
 }
 
 .slider {
@@ -576,8 +599,6 @@ mix-blend-mode: overlay;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0017469a', GradientType=0);
     position: relative;
-    padding-bottom: 100px;
-    margin-top: -120px;
 }
 
 .partners:after {
@@ -693,7 +714,13 @@ mix-blend-mode: overlay;
 }
 
 .traff {
-    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.traff .container {
+    width: 100%;
 }
 
 .sources-med {
@@ -718,7 +745,14 @@ mix-blend-mode: overlay;
 }
 
 .sources {
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.sources .container {
+    width: 100%;
 }
 
 .sources .pic {
@@ -796,6 +830,9 @@ mix-blend-mode: overlay;
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background: -moz-linear-gradient(top, rgba(37, 102, 201, 0) 0%, rgba(35, 95, 188, 0.02) 13%, rgba(31, 86, 169, 0.03) 14%, rgba(30, 82, 162, 0.04) 15%, rgba(29, 80, 157, 0.05) 16%, rgba(29, 78, 154, 0.06) 17%, rgba(28, 77, 151, 0.07) 18%, rgba(27, 75, 147, 0.08) 19%, rgba(27, 73, 143, 0.09) 20%, rgba(27, 73, 144, 0.09) 21%, rgba(26, 72, 141, 0.11) 23%, rgba(25, 67, 132, 0.19) 30%, rgba(25, 67, 131, 0.23) 33%, rgba(24, 64, 126, 0.56) 56%, rgba(24, 64, 126, 0.59) 58%, rgba(24, 64, 126, 0.8) 74%, rgba(23, 64, 125, 0.93) 88%, rgba(23, 64, 125, 1) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(37, 102, 201, 0) 0%, rgba(35, 95, 188, 0.02) 13%, rgba(31, 86, 169, 0.03) 14%, rgba(30, 82, 162, 0.04) 15%, rgba(29, 80, 157, 0.05) 16%, rgba(29, 78, 154, 0.06) 17%, rgba(28, 77, 151, 0.07) 18%, rgba(27, 75, 147, 0.08) 19%, rgba(27, 73, 143, 0.09) 20%, rgba(27, 73, 144, 0.09) 21%, rgba(26, 72, 141, 0.11) 23%, rgba(25, 67, 132, 0.19) 30%, rgba(25, 67, 131, 0.23) 33%, rgba(24, 64, 126, 0.56) 56%, rgba(24, 64, 126, 0.59) 58%, rgba(24, 64, 126, 0.8) 74%, rgba(23, 64, 125, 0.93) 88%, rgba(23, 64, 125, 1) 100%);
@@ -804,6 +841,10 @@ mix-blend-mode: overlay;
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002566c9', endColorstr='#17407d', GradientType=0);
     /* IE6-9 */
+}
+
+.contacts .container {
+    width: 100%;
 }
 
 .contacts .pic {
@@ -936,7 +977,7 @@ mix-blend-mode: overlay;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .modal .modal-content {
@@ -1245,7 +1286,7 @@ nav.mobile {
     position: absolute;
     z-index: 0;
     top: 55px;
-    background: #fff;
+    background: transparent;
     left: 0;
     right: 0;
     -webkit-transform: translate(0, -55px);
@@ -1253,6 +1294,13 @@ nav.mobile {
     -o-transform: translate(0, -55px);
     transform: translate(0, -55px);
     display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-opened nav.mobile {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 nav.mobile ul:after {
@@ -1329,7 +1377,7 @@ header {
 }
 
 .head-buttons .reg-btn:hover {
-    color: #b25800;
+    color: #ffd400;
 }
 
 .preloader {
@@ -1453,6 +1501,10 @@ header {
 
 header nav {
     margin-left: 270px;
+}
+
+header nav.mobile {
+    margin-left: 0;
 }
 
 .success.sect1 .container {
@@ -1627,9 +1679,7 @@ header nav {
 /* ------ MAIN MEDIA REQUESTS ------ */
 
 @media (max-width: 1349px) {
-    section {
-        padding: 70px 0
-    }
+
     .sect1 {
         padding: 0;
     }
@@ -1655,10 +1705,12 @@ header nav {
         max-width: 1100px;
         margin: auto
     }
+    nav.mobile .container {
+        width: 100%;
+    }
     .sect1 .container {
         min-height: 0;
         height: 520px;
-        margin-bottom: 50px;
     }
     header ul li {
         font-size: 14px;
@@ -1707,7 +1759,7 @@ header nav {
     }
     nav.mobile {
         display: block;
-        z-index: 2;
+        z-index: -1;
     }
     .menu-opened nav.mobile {
         -webkit-transform: translate(0, 0);
@@ -1792,6 +1844,9 @@ header nav {
         width: auto;
         height: 45px;
     }
+    /*.howitworks .container {*/
+    /*    padding-top: 200px;*/
+    /*}*/
     .howitworks .wrap .box50 {
         flex-direction: column;
         align-items: center;
@@ -1900,9 +1955,6 @@ header nav {
     .traff .pic img {
         width: 75%;
         max-width: 350px;
-    }
-    .partners {
-        padding-bottom: 60px;
     }
     .traff .wrap {
         text-align: center;
@@ -2166,6 +2218,9 @@ header nav {
     nav.mobile {
         background: transparent
     }
+    .menu-opened nav.mobile {
+        background-color: #0f2243;
+    }
     body {
         padding: 0;
     }
@@ -2281,6 +2336,10 @@ header nav {
     }
     .partners h2 {
         width: auto;
+    }
+    .slider {
+        width: 80%;
+        margin: 0 auto;
     }
     .howitworks .wrap .box50 .number {
         margin-top: -30px;
