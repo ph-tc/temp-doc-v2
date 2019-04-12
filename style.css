@@ -428,7 +428,7 @@ mix-blend-mode: overlay;
     float: left;
     line-height: 16px;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-weight: 500;
     -webkit-transform: translateX(70px);
     -ms-transform: translateX(70px);
@@ -895,7 +895,7 @@ mix-blend-mode: overlay;
     font-size: 28px;
     font-weight: 300;
     line-height: 28px;
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 .sources {

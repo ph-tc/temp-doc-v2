@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb54e479-f30b-4900-a16d-5eef2021ecc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="453" column="24" selection-start-line="453" selection-start-column="24" selection-end-line="453" selection-end-column="24" />
+            <state relative-caret-position="470">
+              <caret line="430" column="20" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,7 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reg</find>
       <find>writes</find>
       <find>.traff ul</find>
       <find>.traff .wrap</find>
@@ -82,14 +80,15 @@
       <find>.contacts .contact-row a</find>
       <find>.contacts .contact-row span</find>
       <find>.whycosts .pic</find>
-      <find>h2</find>
       <find>.traff .pic img</find>
       <find>750</find>
-      <find>.whycosts .wrap ul li</find>
       <find>.howitworks .title span</find>
       <find>.whycosts .wrap ul</find>
       <find>СНГ</find>
       <find>.whycosts h2</find>
+      <find>h2</find>
+      <find>.sources-small</find>
+      <find>.whycosts .wrap ul li</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,7 +163,7 @@
       <workItem from="1554904124088" duration="6215000" />
       <workItem from="1554964791052" duration="28910000" />
       <workItem from="1555051609496" duration="3430000" />
-      <workItem from="1555056668171" duration="16797000" />
+      <workItem from="1555056668171" duration="17320000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1554910337553</created>
@@ -243,11 +242,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555074850628</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="initial">
+      <created>1555075663908</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555075663908</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial">
+      <created>1555076013074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555076013074</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55352000" />
+    <option name="totallyTimeSpent" value="55875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -320,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="453" column="24" selection-start-line="453" selection-start-column="24" selection-end-line="453" selection-end-column="24" />
+        <state relative-caret-position="470">
+          <caret line="430" column="20" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
         </state>
       </provider>
     </entry>
