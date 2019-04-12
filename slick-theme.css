@@ -62,7 +62,7 @@
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
-    opacity: .25;
+    opacity: .2;
     filter: none;
 }
 
@@ -147,7 +147,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: 55px;
 
     display: block;
 

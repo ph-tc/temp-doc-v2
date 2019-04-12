@@ -245,23 +245,23 @@ $(document).ready(function(){
         ]
     });
 
-    slickSlider.mousewheel(function(e) {
-        if (e.deltaY < 0) {
-            if($(this).slick('slickCurrentSlide') == $(this).find('.box50').length - 1) {
-                return
-            }
-
-            e.preventDefault()
-            $(this).slick('slickNext')
-        } else {
-            if($(this).slick('slickCurrentSlide') == 0) {
-                return
-            }
-
-            e.preventDefault()
-            $(this).slick('slickPrev')
-        }
-    });
+    // slickSlider.mousewheel(function(e) {
+    //     if (e.deltaY < 0) {
+    //         if($(this).slick('slickCurrentSlide') == $(this).find('.box50').length - 1) {
+    //             return
+    //         }
+    //
+    //         e.preventDefault()
+    //         $(this).slick('slickNext')
+    //     } else {
+    //         if($(this).slick('slickCurrentSlide') == 0) {
+    //             return
+    //         }
+    //
+    //         e.preventDefault()
+    //         $(this).slick('slickPrev')
+    //     }
+    // });
 });
 
 setInterval( function() {
