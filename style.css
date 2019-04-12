@@ -451,7 +451,7 @@ mix-blend-mode: overlay;
 }
 
 .whycosts h2 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .whycosts .wrap,
@@ -726,7 +726,7 @@ mix-blend-mode: overlay;
 .partners .title {
     /*width: 445px;*/
     float: left;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .partners .wrap {
@@ -746,7 +746,7 @@ mix-blend-mode: overlay;
 
 .partners .wrap .top {
     line-height: 55px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
