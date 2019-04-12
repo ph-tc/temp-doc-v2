@@ -41,6 +41,7 @@
     outline: none;
     background: transparent;
     filter: drop-shadow(0 0 10px #fff);
+    z-index: 10;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -81,7 +82,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 10px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -111,7 +112,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 10px;
 }
 [dir='rtl'] .slick-next
 {

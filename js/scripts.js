@@ -267,7 +267,8 @@ $(document).ready(function(){
 setInterval( function() {
     var sect1Btn = document.querySelector('.sect1 .sect-btn');
     var heading = document.querySelector('.sect1 h2');
-    if ( window.matchMedia("(min-width: 920px)").matches ) {
+
+    if ( window.matchMedia("(min-width: 921px)").matches ) {
 
         var headingWidth = parseInt(getComputedStyle(heading).width);
         var btnWidth = parseInt(getComputedStyle(sect1Btn).width);
