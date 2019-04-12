@@ -214,7 +214,7 @@ nav li {
 }
 
 section {
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 section.contacts {
@@ -255,7 +255,7 @@ section .container {
 h2 {
 font-size: 45px;
 margin: 0;
-line-height: 55px;
+line-height: 50px;
 font-weight: 600;
 }
 .sect1 h2 {
@@ -319,7 +319,17 @@ background: #fef60e;
 color: #071325;
 position: relative;
 box-shadow: none;
-mix-blend-mode: normal
+mix-blend-mode: normal;
+    animation: glowing 2s infinite alternate ease-in-out;
+}
+
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 0 rgba(255, 150, 0, 1);
+    }
+    to {
+        box-shadow: 0 0 50px rgba(255, 150, 0, 1);
+    }
 }
 
 .sect1 .wrap .row a {
@@ -394,9 +404,9 @@ mix-blend-mode: overlay;
     display: block;
     text-align: left;
     float: left;
-    line-height: 63px;
+    line-height: 16px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-weight: 500;
     -webkit-transform: translateX(70px);
     -ms-transform: translateX(70px);
@@ -510,7 +520,7 @@ mix-blend-mode: overlay;
 
 .howitworks .wrap .box50 .number {
     /*display: inline-block;*/
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .howitworks .wrap .box50 img {
@@ -591,7 +601,7 @@ mix-blend-mode: overlay;
     box-shadow: none;
     vertical-align: middle;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     position: relative;
 }
 
@@ -607,7 +617,7 @@ mix-blend-mode: overlay;
 
 .howitworks .title h2 {
     text-align: center;
-    margin: 0 auto 15px;
+    margin: 0 auto 40px;
 }
 
 .partners {
@@ -660,11 +670,13 @@ mix-blend-mode: overlay;
     z-index: -1;
     background: url(img/partnersbg.png)no-repeat;
     background-size: 100%;
+    background-position: 0 center;
 }
 
 .partners .title {
     /*width: 445px;*/
     float: left;
+    margin-bottom: 40px;
 }
 
 .partners .wrap {
@@ -683,13 +695,13 @@ mix-blend-mode: overlay;
 
 .partners .wrap .top {
     line-height: 55px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-partners .opearators {
+.partners .wrap .operators {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .partners .wrap .operators a {
@@ -701,20 +713,14 @@ partners .opearators {
     background: #fff;
     box-shadow: 0 0 25px rgba(64, 191, 255, 0.9);
     display: block;
-    float: left;
-    margin: 20px 0;
-    margin-right: 38px;
+    /*float: left;*/
+    margin: 0 16px 40px;
     padding: 0;
     border: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative
-}
-
-.partners .wrap .operators a:nth-child(6),
-.partners .wrap .operators a:nth-child(12) {
-    margin-right: 0;
 }
 
 .partners .wrap .operators a img {
@@ -751,7 +757,7 @@ partners .opearators {
 }
 
 .traff h2 {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .traff ul li {
@@ -759,7 +765,8 @@ partners .opearators {
     float: left;
     width: 50%;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 25px;
     -webkit-transform: translateX(40px);
     -ms-transform: translateX(40px);
     -o-transform: translateX(40px);
@@ -810,7 +817,7 @@ partners .opearators {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    margin: 45px 0;
+    margin: 40px 0;
 }
 
 .sources {
@@ -857,18 +864,18 @@ partners .opearators {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    padding-bottom: 55px;
+    padding-bottom: 40px;
     position: relative;
 }
 
 .writes h2 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .writes .wrap .date:after {
     content: '';
     position: absolute;
-    bottom: 25px;
+    bottom: 20px;
     left: 0;
     width: 30px;
     height: 5px;
@@ -879,7 +886,7 @@ partners .opearators {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .writes .wrap .txt {
@@ -1879,6 +1886,7 @@ header nav.mobile {
     .sect1 h2 {
         max-width: 50%;
         font-size: 30px;
+        line-height: 30px;
     }
     .sect1 h2 span {
         font-size: 42px;
@@ -2039,14 +2047,8 @@ header nav.mobile {
         margin: auto;
         justify-content: center;
     }
-
-    .partners .wrap .operators a:nth-child(6),
-    .partners .wrap .operators a:nth-child(12) {
-        margin-right: auto;
-    }
     .partners .wrap .operators a {
-        margin: 0 10px 35px;
-        margin-right: 26px;
+        margin: 0 16px 40px;
     }
     .partners .wrap .operators {
         width: 100%;
@@ -2171,9 +2173,6 @@ header nav.mobile {
     }
     section {
         padding: 25px 0;
-    }
-    .writes {
-        margin-top: 50px;
     }
     .howitworks p {
         margin: 60px 0 -5px;
@@ -2453,9 +2452,8 @@ header nav.mobile {
     .partners .wrap {
         width: 100%;
     }
-    .partners .wrap .operators a:nth-child(6),
-    .partners .wrap .operators a:nth-child(12) {
-        margin-right: 10px;
+    .partners .wrap .operators a {
+        margin: 0 3% 40px;
     }
     .slider {
         width: 80%;
@@ -2467,9 +2465,6 @@ header nav.mobile {
     }
     .howitworks .wrap .box50 {
         margin-bottom: 45px;
-    }
-    .partners .wrap .operators a {
-        margin: 0 10px 35px;
     }
     .traff .pic img {
         width: 100%;
@@ -2575,7 +2570,7 @@ header nav.mobile {
         line-height: 20px;
     }
     .whycosts h2 {
-        font-size: 35px;
+        font-size: 25px;
         line-height: 46px;
     }
     .writes .container {
@@ -2603,7 +2598,7 @@ header nav.mobile {
         width: 300px;
     }
     .partners .wrap .operators a {
-        margin: 0px 20px 35px;
+        margin: 0px 20px 40px;
     }
 }
 

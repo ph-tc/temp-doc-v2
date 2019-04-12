@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb54e479-f30b-4900-a16d-5eef2021ecc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/slick-theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="206" column="40" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+            <state relative-caret-position="466">
+              <caret line="392" column="26" selection-start-line="392" selection-start-column="26" selection-end-line="392" selection-end-column="26" />
+              <folding>
+                <element signature="n#div#0;n#section#6;n#main#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#7;n#main#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slick-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -28,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="593" column="17" lean-forward="true" selection-start-line="593" selection-start-column="17" selection-end-line="593" selection-end-column="17" />
+            <state relative-caret-position="443">
+              <caret line="322" column="56" selection-start-line="322" selection-start-column="56" selection-end-line="322" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -37,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5246">
-              <caret line="264" column="3" selection-start-line="264" selection-start-column="3" selection-end-line="264" selection-end-column="3" />
+            <state relative-caret-position="7236">
+              <caret line="268" column="54" selection-start-line="268" selection-start-column="54" selection-end-line="268" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -47,36 +61,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header</find>
-      <find>nav.mobile .container</find>
-      <find>whycosts</find>
-      <find>traff</find>
-      <find>.sources</find>
-      <find>.howitworks</find>
-      <find>.sect1</find>
-      <find>.howitworks .container</find>
-      <find>height: 100vh</find>
-      <find>.sect1 .container</find>
-      <find>partners</find>
-      <find>750</find>
-      <find>writes</find>
-      <find>under</find>
-      <find>h2 span</find>
-      <find>.yellow-btn</find>
-      <find>yellow-btn</find>
       <find>nav li</find>
       <find>logo a</find>
       <find>fullpage</find>
       <find>linear</find>
       <find>.howitworks .btn-area button</find>
       <find>.howitworks .btn-area</find>
-      <find>section</find>
-      <find>.partners .wrap .operators a</find>
       <find>sources .conta</find>
       <find>sources .wrap</find>
-      <find>.foot-line</find>
       <find>main</find>
       <find>.contacts .pic img</find>
+      <find>foot-line</find>
+      <find>.sect1 h2</find>
+      <find>section</find>
+      <find>partners .title</find>
+      <find>.foot-line</find>
+      <find>whycosts h2</find>
+      <find>.contacts .container</find>
+      <find>foot</find>
+      <find>все стат</find>
+      <find>writes</find>
+      <find>howitworks</find>
+      <find>750</find>
+      <find>h2</find>
+      <find>.howitworks .wrap .box50 .number</find>
+      <find>.partners .wrap .top</find>
+      <find>.writes .wrap .date</find>
+      <find>.traff ul li</find>
+      <find>operat</find>
+      <find>operators</find>
+      <find>.partners .wrap .operators a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,9 +99,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/img/svg/002-icon-arrow-2.svg" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/slick-theme.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/slick-theme.css" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
@@ -103,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,15 +125,11 @@
               <item name="serious 2" type="b2602c69:ProjectViewProjectNode" />
               <item name="serious 2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="serious 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serious 2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1554904122805</updated>
       <workItem from="1554904124088" duration="6215000" />
-      <workItem from="1554964791052" duration="19341000" />
+      <workItem from="1554964791052" duration="28910000" />
+      <workItem from="1555051609496" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1554910337553</created>
@@ -197,11 +208,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554985728618</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial">
+      <created>1554985923613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554985923613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial">
+      <created>1554996365415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554996365416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25556000" />
+    <option name="totallyTimeSpent" value="37923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -242,31 +267,41 @@
         <state relative-caret-position="-2430" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slick-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/img/svg/001-icon-arrow-1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/svg/002-icon-arrow-2.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5246">
-          <caret line="264" column="3" selection-start-line="264" selection-start-column="3" selection-end-line="264" selection-end-column="3" />
+        <state relative-caret-position="7236">
+          <caret line="268" column="54" selection-start-line="268" selection-start-column="54" selection-end-line="268" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="206" column="40" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+        <state relative-caret-position="466">
+          <caret line="392" column="26" selection-start-line="392" selection-start-column="26" selection-end-line="392" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#section#6;n#main#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#7;n#main#0;n#article#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="593" column="17" lean-forward="true" selection-start-line="593" selection-start-column="17" selection-end-line="593" selection-end-column="17" />
+        <state relative-caret-position="443">
+          <caret line="322" column="56" selection-start-line="322" selection-start-column="56" selection-end-line="322" selection-end-column="56" />
         </state>
       </provider>
     </entry>
