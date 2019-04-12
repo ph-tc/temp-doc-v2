@@ -253,7 +253,7 @@ section .container {
     margin: auto;
     background: url(img/sect1r.png) no-repeat;
     background-size: 670px;
-    background-position: 100% 70%;
+    background-position: 105% 70%;
 }
 
 @media (max-height: 800px) {
@@ -2378,7 +2378,7 @@ header nav.mobile {
     }
     .sect1 .container {
         background-size: 470px;
-        background-position: 115% 50%;
+        background-position: 105% 50%;
     }
     .success.sect1 .wrap {
         float: none;
