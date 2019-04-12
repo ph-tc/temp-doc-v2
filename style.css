@@ -2826,11 +2826,29 @@ header nav.mobile {
 }
 
 @media (max-width: 480px) {
+    section,
+    section.contacts{
+        min-height: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .sect1 {
+        margin-bottom: 50px;
+    }
     h2 {
         font-size: 30px;
     }
     .whycosts .wrap ul li span {
         font-size: 16px;
+    }
+    .howitworks {
+        margin-bottom: 0;
+    }
+    .howitworks .container {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .howitworks .title span {
         font-size: 16px;
